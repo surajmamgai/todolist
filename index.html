@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>To Do List</title>
+<link rel="stylesheet" href="style.css">
+<script src="main.js"></script>
+</head>
+ <body>
+ <div class="header">
+ <h2>To Do List By Suraj Mamgai</h2>
+<input type="text" id="newItem"/><br><br><button onclick="add()" id="add" class="addBtn">Add Item</button><br>
+</div>
+<ul id="todo">
+<li class="row">
+<span class="item"></span>
+<button onclick="this.parentElement.remove(); count--;" style="display:none" class="delete">Delete</button>
+</li>
+</ul>
+</body>
+</html>
